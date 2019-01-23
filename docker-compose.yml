@@ -1,0 +1,5 @@
+services:
+  app:
+    # Mount the current directory into `/app` inside the running container.
+    volumes:
+      - '.:/app'
